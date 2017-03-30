@@ -20,7 +20,7 @@ $ twitch-url --client-id=abcdefghijklmno12345
 
 ### Environment variable
 ```sh
-$ TWITCH_CLIENT_TOKEN=abcdefghijklmno12345 twitch-url
+$ TWITCH_CLIENT_ID=abcdefghijklmno12345 twitch-url
 ```
 
 ### Dotfile (recommended)
