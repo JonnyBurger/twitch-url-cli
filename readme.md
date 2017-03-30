@@ -2,6 +2,8 @@
 
 Get a single m3u8 URL of a Twitch stream. You can then for example use that URL for [open-pip](https://github.com/albinekb/open-pip-cli).
 
+![Screenshot](https://cloud.githubusercontent.com/assets/1629785/24510043/55fa418a-1568-11e7-9568-2db243aa9215.gif)
+
 ## Installation
 
 ```sh
