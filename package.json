@@ -1,0 +1,38 @@
+{
+  "name": "twitch-url-cli",
+  "version": "1.0.0",
+  "description": "Get a m3u8 URL of a Twitch stream",
+  "license": "MIT",
+  "repository": "JonnyBurger/twitch-url-cli",
+  "author": {
+    "name": "Jonny Burger",
+    "email": "jonathanburger11@gmail.com",
+    "url": "jonny.io"
+  },
+  "bin": {
+    "twitch-url": "./cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "twitch-get-stream": "^0.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
+  }
+}
